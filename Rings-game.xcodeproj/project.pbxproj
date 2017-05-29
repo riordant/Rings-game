@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B7360B21BFA324700DB3F98 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B7360B11BFA324700DB3F98 /* camera.cpp */; settings = {ASSET_TAGS = (); }; };
+		5BA5FF9C1BF0C6FE00E85505 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5FF9B1BF0C6FE00E85505 /* main.cpp */; };
+		5BA5FFA31BF0C86900E85505 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFA21BF0C86900E85505 /* IOKit.framework */; };
+		5BA5FFA71BF0C88600E85505 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFA61BF0C88600E85505 /* CoreVideo.framework */; };
+		5BA5FFA91BF0C89600E85505 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFA81BF0C89600E85505 /* Cocoa.framework */; };
+		5BA5FFAB1BF0C89D00E85505 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFAA1BF0C89D00E85505 /* OpenGL.framework */; };
+		5BA5FFAD1BF0C8A700E85505 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFAC1BF0C8A700E85505 /* GLUT.framework */; };
+		5BA5FFB41BF0C8C700E85505 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFB01BF0C8C700E85505 /* libGLEW.a */; };
+		5BA5FFB51BF0C8C700E85505 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5FFB11BF0C8C700E85505 /* libglfw3.a */; };
+		5BA5FFB71BF0D14000E85505 /* maths_funcs.cp in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5FFB61BF0D14000E85505 /* maths_funcs.cp */; settings = {ASSET_TAGS = (); }; };
+		5BB4E1011C22FF4000FA0289 /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4E1001C22FF4000FA0289 /* text.cpp */; settings = {ASSET_TAGS = (); }; };
+		5BDC5AEB1BF0F62500C8005B /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDC5AE81BF0F62500C8005B /* libassimp.3.1.1.dylib */; };
+		5BDC5AEC1BF0F62500C8005B /* libassimp.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDC5AE91BF0F62500C8005B /* libassimp.3.dylib */; };
+		5BDC5AED1BF0F62500C8005B /* libassimp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDC5AEA1BF0F62500C8005B /* libassimp.dylib */; };
+		5BEEE9DD1C1FD151007BEFA8 /* libirrklang.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEEE9DA1C1FD151007BEFA8 /* libirrklang.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BA5FF961BF0C6FE00E85505 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B7360B11BFA324700DB3F98 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		5BA5FF981BF0C6FE00E85505 /* Lab 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab 5"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA5FF9B1BF0C6FE00E85505 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5BA5FFA21BF0C86900E85505 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5BA5FFA41BF0C87000E85505 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5BA5FFA61BF0C88600E85505 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5BA5FFA81BF0C89600E85505 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BA5FFAA1BF0C89D00E85505 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5BA5FFAC1BF0C8A700E85505 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5BA5FFB01BF0C8C700E85505 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = lib/libGLEW.a; sourceTree = "<group>"; };
+		5BA5FFB11BF0C8C700E85505 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = lib/libglfw3.a; sourceTree = "<group>"; };
+		5BA5FFB61BF0D14000E85505 /* maths_funcs.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maths_funcs.cp; sourceTree = "<group>"; };
+		5BB4E1001C22FF4000FA0289 /* text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text.cpp; sourceTree = "<group>"; };
+		5BDC5AE81BF0F62500C8005B /* libassimp.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.1.1.dylib; path = "include/Assimp/assimp-3.1.1-build/code/libassimp.3.1.1.dylib"; sourceTree = "<group>"; };
+		5BDC5AE91BF0F62500C8005B /* libassimp.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.dylib; path = "include/Assimp/assimp-3.1.1-build/code/libassimp.3.dylib"; sourceTree = "<group>"; };
+		5BDC5AEA1BF0F62500C8005B /* libassimp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.dylib; path = "include/Assimp/assimp-3.1.1-build/code/libassimp.dylib"; sourceTree = "<group>"; };
+		5BEEE9DA1C1FD151007BEFA8 /* libirrklang.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirrklang.dylib; path = ../../../../../usr/local/lib/libirrklang.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA5FF951BF0C6FE00E85505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5FFAD1BF0C8A700E85505 /* GLUT.framework in Frameworks */,
+				5BA5FFAB1BF0C89D00E85505 /* OpenGL.framework in Frameworks */,
+				5BA5FFA91BF0C89600E85505 /* Cocoa.framework in Frameworks */,
+				5BA5FFA71BF0C88600E85505 /* CoreVideo.framework in Frameworks */,
+				5BA5FFA31BF0C86900E85505 /* IOKit.framework in Frameworks */,
+				5BA5FFB41BF0C8C700E85505 /* libGLEW.a in Frameworks */,
+				5BA5FFB51BF0C8C700E85505 /* libglfw3.a in Frameworks */,
+				5BEEE9DD1C1FD151007BEFA8 /* libirrklang.dylib in Frameworks */,
+				5BDC5AEB1BF0F62500C8005B /* libassimp.3.1.1.dylib in Frameworks */,
+				5BDC5AEC1BF0F62500C8005B /* libassimp.3.dylib in Frameworks */,
+				5BDC5AED1BF0F62500C8005B /* libassimp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA5FF8F1BF0C6FE00E85505 = {
+			isa = PBXGroup;
+			children = (
+				5BEEE9DA1C1FD151007BEFA8 /* libirrklang.dylib */,
+				5BDC5AE81BF0F62500C8005B /* libassimp.3.1.1.dylib */,
+				5BDC5AE91BF0F62500C8005B /* libassimp.3.dylib */,
+				5BDC5AEA1BF0F62500C8005B /* libassimp.dylib */,
+				5BA5FFB01BF0C8C700E85505 /* libGLEW.a */,
+				5BA5FFB11BF0C8C700E85505 /* libglfw3.a */,
+				5BA5FFAC1BF0C8A700E85505 /* GLUT.framework */,
+				5BA5FFAA1BF0C89D00E85505 /* OpenGL.framework */,
+				5BA5FFA81BF0C89600E85505 /* Cocoa.framework */,
+				5BA5FFA61BF0C88600E85505 /* CoreVideo.framework */,
+				5BA5FFA41BF0C87000E85505 /* CoreAudio.framework */,
+				5BA5FFA21BF0C86900E85505 /* IOKit.framework */,
+				5BA5FF9A1BF0C6FE00E85505 /* Lab 5 */,
+				5BA5FF991BF0C6FE00E85505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA5FF991BF0C6FE00E85505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5FF981BF0C6FE00E85505 /* Lab 5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA5FF9A1BF0C6FE00E85505 /* Lab 5 */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5FF9B1BF0C6FE00E85505 /* main.cpp */,
+				5B7360B11BFA324700DB3F98 /* camera.cpp */,
+				5BA5FFB61BF0D14000E85505 /* maths_funcs.cp */,
+				5BB4E1001C22FF4000FA0289 /* text.cpp */,
+			);
+			path = "Lab 5";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA5FF971BF0C6FE00E85505 /* Lab 5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA5FF9F1BF0C6FE00E85505 /* Build configuration list for PBXNativeTarget "Lab 5" */;
+			buildPhases = (
+				5BA5FF941BF0C6FE00E85505 /* Sources */,
+				5BA5FF951BF0C6FE00E85505 /* Frameworks */,
+				5BA5FF961BF0C6FE00E85505 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab 5";
+			productName = "Lab 5";
+			productReference = 5BA5FF981BF0C6FE00E85505 /* Lab 5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA5FF901BF0C6FE00E85505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = tr;
+				TargetAttributes = {
+					5BA5FF971BF0C6FE00E85505 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BA5FF931BF0C6FE00E85505 /* Build configuration list for PBXProject "Lab 5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BA5FF8F1BF0C6FE00E85505;
+			productRefGroup = 5BA5FF991BF0C6FE00E85505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA5FF971BF0C6FE00E85505 /* Lab 5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA5FF941BF0C6FE00E85505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5FFB71BF0D14000E85505 /* maths_funcs.cp in Sources */,
+				5B7360B21BFA324700DB3F98 /* camera.cpp in Sources */,
+				5BB4E1011C22FF4000FA0289 /* text.cpp in Sources */,
+				5BA5FF9C1BF0C6FE00E85505 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BA5FF9D1BF0C6FE00E85505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BA5FF9E1BF0C6FE00E85505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BA5FFA01BF0C6FE00E85505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				HEADER_SEARCH_PATHS = include/;
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/include/Assimp/assimp-3.1.1-build/code",
+					"$(PROJECT_DIR)/include/irrKlang-64bit-1.5.0/bin/macosx-gcc",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-lassimp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA5FFA11BF0C6FE00E85505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				HEADER_SEARCH_PATHS = include/;
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/include/Assimp/assimp-3.1.1-build/code",
+					"$(PROJECT_DIR)/include/irrKlang-64bit-1.5.0/bin/macosx-gcc",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-lassimp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA5FF931BF0C6FE00E85505 /* Build configuration list for PBXProject "Lab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA5FF9D1BF0C6FE00E85505 /* Debug */,
+				5BA5FF9E1BF0C6FE00E85505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA5FF9F1BF0C6FE00E85505 /* Build configuration list for PBXNativeTarget "Lab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA5FFA01BF0C6FE00E85505 /* Debug */,
+				5BA5FFA11BF0C6FE00E85505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA5FF901BF0C6FE00E85505 /* Project object */;
+}

@@ -1,0 +1,3 @@
+/Users/tadhgriordan/Desktop/Assimp/assimp-3.1.1-build/CMakeFiles/uninstall.dir
+/Users/tadhgriordan/Desktop/Assimp/assimp-3.1.1-build/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
+/Users/tadhgriordan/Desktop/Assimp/assimp-3.1.1-build/code/CMakeFiles/assimp.dir

@@ -1,0 +1,26 @@
+new OpenGL project in XCode Steps
+Xcode 7 - el capitan
+
+- new project -> osx -> application -> command line tool, C++
+- click&drag .cpp files necessary
+- when dragging files in, say "yes" to 'copy if necessary'
+- go to project folder in directory: copy/paste 'include' from Dependancies folder, add extra files if necessary.
+				       copy/paste 'lib' from Dependances folder, add extra files if necessary.
+									 create "Shaders" folder and add shaders if necessary.
+- adding dependancies: click project node:
+					   build settings - search paths - header search paths - add "include/"
+  					   build settings - Enable Modules (C and Objective-C) - No
+  					   build settings - OS X Deployment Target - change to OS X 10.8 (not necessary but warnings otherwise)
+  					   build phases - add iokit,cocoa,opengl,glut,corevideo, and then drag lib files from directory.
+
+- in main file: include header files from file in "Dependancies" and add new ones necessary
+			    uncomment windows stuff (DWORD, header files)
+			    make sure addShaders has a correct full path to your shaders. eg. "/Users/...txt"
+				add "GLUT_3_2_CORE_PROFILE|GLUT_DEPTH" in glutInitDisplayMode (mac profile/stops models appearing see-through)
+				add "glewExperimental = GL_TRUE;" before glewInit is called
+				sometimes have to add another VAO (if using her code. it's the way it's set up)
+					do this before compilerShaders() is called.
+					code: GLuint vao = 0;
+    					  glGenVertexArrays (1, &vao);
+    					  glBindVertexArray (vao);
+				if model not appearing, make sure all other VAOs are using glGenVertexArrays(1,&{vao_name}); and are being bound.
